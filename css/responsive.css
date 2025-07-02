@@ -10826,6 +10826,11 @@
 }
 
 @media (max-width: 991px) {
+
+    .animate-arrow-bounce {
+        display: none;
+    }
+
     .menu-list-wrapper.mCS_no_scrollbar .mCSB_inside>.mCSB_container .menu-list {
         padding-right: 0;
     }

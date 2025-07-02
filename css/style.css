@@ -1277,6 +1277,10 @@ a.text-gradient-fuego-turquoise-hover:hover {
     font-weight: 600;
 }
 
+.text-justify {
+    text-align: justify;
+}
+
 .first-letter-big {
     float: left;
     font-size: 100px;
@@ -4170,7 +4174,7 @@ input.btn:focus {
 }
 
 .border-color-golden-transparent {
-    border-color: #db1f26 !important;
+    border-color: #1c75bc !important;
 }
 
 .border-color-pink-transparent {
@@ -17483,8 +17487,14 @@ a img.aligncenter {
     color: #fff !important;
 }
 
+.interactive-banners-name {
+    color: white;
+    opacity: 0.7;
+}
+
 .interactive-banners-style-03:hover .interactive-banners-name {
     border-color: #fff !important;
+    opacity: 1;
 }
 
 .interactive-banners-style-04 .interactive-banners-content .btn {
@@ -23295,5 +23305,22 @@ only screen and (min-resolution: 1.5dppx) {
         width: 95%;
         margin: 5% auto;
         padding: 20px;
+    }
+}
+
+.animate-arrow-bounce {
+    animation: arrowBounce 1000ms infinite alternate ease-in-out;
+    display: inline-block;
+}
+
+@keyframes arrowBounce {
+    0% {
+        transform: translateX(0);
+    }
+    50% {
+        transform: translateX(20px);
+    }
+    100% {
+        transform: translateX(0);
     }
 }
