@@ -7,8 +7,18 @@
     src: url("../fonts/Ciutadella-Regular.ttf");
 }
 
+@font-face {
+    font-family: "Gilroy";
+    src: url("../fonts/Gilroy-Regular.ttf");
+}
+
 html {
     font-size: 14px;
+}
+
+:root {
+    --shadow-light: 0 4px 6px rgba(0, 0, 0, 0.1), 0 1px 3px rgba(0, 0, 0, 0.08);
+    --shadow-strong: 0 10px 15px rgba(0, 0, 0, 0.1), 0 4px 6px rgba(0, 0, 0, 0.05);
 }
 
 *,
@@ -22,7 +32,7 @@ body {
     line-height: 30px;
     font-weight: 400;
     color: #828282;
-    font-family: 'Ciutadella', 'Roboto', sans-serif;
+    font-family: "Gilroy", 'Ciutadella', 'Roboto', sans-serif;
     padding: 0;
     margin: 0;
     -webkit-font-smoothing: antialiased;
@@ -317,14 +327,6 @@ header [class^="container-"] [class*=" col-"] {
     :root {
         scroll-behavior: auto
     }
-}
-
-.alt-font {
-    font-family: 'Poppins', sans-serif;
-}
-
-.main-font {
-    font-family: 'Ciutadella', 'Roboto', sans-serif !important;
 }
 
 h1,
@@ -896,7 +898,7 @@ a.text-very-light-white-transparent-hover:hover {
 }
 
 .text-gradient-peacock-blue-crome-yellow {
-    background: linear-gradient(to right , #192c57, #1c75bc, #db1f26);
+    background: linear-gradient(to right, #192c57, #1c75bc, #db1f26);
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
 }
@@ -2878,7 +2880,6 @@ input[type="radio"]:checked+label span:after {
     border-radius: 0;
     text-transform: uppercase;
     width: auto;
-    font-family: 'Ciutadella', 'Poppins', sans-serif;
     font-weight: 500;
 }
 
@@ -11318,7 +11319,6 @@ a.likes-count:hover {
 
 .mfp-close {
     font-size: 30px;
-    font-family: 'Ciutadella', 'Poppins', sans-serif;
     font-weight: 300;
 }
 
@@ -13722,7 +13722,6 @@ header .header-cart-icon .cart-count {
     display: -ms-flexbox;
     display: flex;
     z-index: 1;
-    font-family: 'Ciutadella', 'Poppins', sans-serif;
     color: #fff;
     font-size: 18px;
     line-height: 22px;
@@ -16504,7 +16503,6 @@ a img.aligncenter {
     font-size: 11px;
     padding: 4px 13px 5px;
     text-transform: uppercase;
-    font-family: 'Ciutadella', 'Poppins', sans-serif;
     font-weight: 500;
     border-radius: 2px;
 }
@@ -21678,7 +21676,6 @@ footer .instafeed-grid.gutter-double-extra-large {
     padding: 0 !important;
     font-size: 15px !important;
     font-weight: 400 !important;
-    font-family: 'Ciutadella', 'Poppins', sans-serif !important;
 }
 
 .footer-spa-salon.footer-dark,
@@ -23317,10 +23314,113 @@ only screen and (min-resolution: 1.5dppx) {
     0% {
         transform: translateX(0);
     }
+
     50% {
         transform: translateX(20px);
     }
+
     100% {
         transform: translateX(0);
     }
+}
+
+.service-grid {
+    gap: 32px;
+}
+
+.service-box {
+    display: flex;
+    flex-direction: column;
+    padding: 32px;
+    background-color: white;
+    border-radius: 12px;
+    box-shadow: var(--shadow-light);
+    height: 100%;
+
+    transition: all 0.3s ease-in-out;
+    border-bottom: 4px solid transparent;
+}
+
+.service-box:hover {
+    box-shadow: var(--shadow-strong);
+    transform: translateY(-8px);
+}
+
+.service-grid .service-item:nth-child(1) .service-box:hover {
+    border-color: #1c75bc;
+}
+
+.service-grid .service-item:nth-child(2) .service-box:hover {
+    border-color: #192c57;
+}
+
+.service-grid .service-item:nth-child(3) .service-box:hover {
+    border-color: #db1f26;
+}
+
+.service-grid .service-item:nth-child(4) .service-box:hover {
+    border-color: #1c75bc;
+}
+
+
+/* Icon Wrapper */
+.service-icon-wrapper {
+    width: 64px;
+    height: 64px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    margin-bottom: 24px;
+    background-color: rgba(59, 130, 246, 0.2);
+    color: #168de2;
+    font-size: 2rem;
+    transition: all 0.3s ease-in-out;
+}
+
+.service-box:hover .service-icon-wrapper {
+    background-color: #1c75bc;
+    color: white;
+}
+
+.service-grid .service-item:nth-child(2) .service-box:hover .service-icon-wrapper {
+    background-color: #192c57;
+}
+
+.service-grid .service-item:nth-child(3) .service-box:hover .service-icon-wrapper {
+    background-color: #db1f26;
+}
+
+.service-grid .service-item:nth-child(4) .service-box:hover .service-icon-wrapper {
+    background-color:#1c75bc;
+}
+
+
+.service-content {
+    flex-grow: 1;
+}
+
+.service-title {
+    font-weight: 700;
+    font-size: 1.25rem;
+    color: black;
+    display: block;
+    margin-bottom: 0.75rem;
+    transition: color 0.3s ease-in-out;
+}
+
+.service-box:hover .service-title {
+    color: #1c75bc;
+}
+
+.service-grid .service-item:nth-child(2) .service-box:hover .service-title {
+    color: #192c57;
+}
+
+.service-grid .service-item:nth-child(3) .service-box:hover .service-title {
+    color: #db1f26;
+}
+
+.service-grid .service-item:nth-child(4) .service-box:hover .service-title {
+    color: #1c75bc;
 }
