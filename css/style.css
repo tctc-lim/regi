@@ -480,7 +480,7 @@ a.text-black-hover:hover {
 .text-extra-dark-gray,
 .btn-link.text-extra-dark-gray,
 a.text-extra-dark-gray-hover:hover {
-    color: #232323;
+    color: #db1f26;
 }
 
 .text-dark-gray,
@@ -4175,7 +4175,7 @@ input.btn:focus {
 }
 
 .border-color-golden-transparent {
-    border-color: #1c75bc !important;
+    border-color: #192c57 !important;
 }
 
 .border-color-pink-transparent {
@@ -11855,7 +11855,7 @@ header .navbar.responsive-sticky .navbar-brand img,
 }
 
 .show-menu .menu-style-2 .sidebar-nav-menu:hover .sub-menu-item .sub-menu-item li a {
-    color: rgba(255, 255, 255, .6)
+    color: #db1f26
 }
 
 .side-menu .sidebar-nav-menu .menu-list-wrapper {
@@ -12219,7 +12219,7 @@ header.sticky .navbar.header-dark .navbar-toggler-line {
 .top-bar.navbar-light .header-language>a:hover,
 .top-bar.navbar-light .top-bar-contact-list>a:hover,
 .top-bar.navbar-light .header-language.dropdown-style-01 .btn:hover {
-    color: rgba(255, 255, 255, .6) !important;
+    color: #db1f26 !important;
     cursor: pointer;
 }
 
@@ -12244,7 +12244,7 @@ header.sticky .navbar.header-dark .navbar-toggler-line {
 .top-bar.navbar-dark .header-cart-icon>a:hover,
 .top-bar.navbar-dark .header-language>a:hover,
 .top-bar.navbar-dark .header-language.dropdown-style-01 .btn:hover {
-    color: rgba(0, 0, 0, .6) !important;
+    color: #db1f26;
     cursor: pointer;
 }
 
