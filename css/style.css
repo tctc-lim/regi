@@ -14392,7 +14392,7 @@ header .header-cart-icon .cart-count {
 .slider-navigation-style-03.swiper-button-prev:hover {
     box-shadow: 0 0 20px rgba(0, 0, 0, .15);
     background-color: #db1f26;
-    color: #232323;
+    color: white;
 }
 
 .slider-navigation-style-03.swiper-button-next.light,
