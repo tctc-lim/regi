@@ -12197,7 +12197,7 @@ header.sticky .navbar.header-dark .navbar-toggler-line {
 .top-bar.navbar-light .header-language>a:hover,
 .top-bar.navbar-light .top-bar-contact-list>a:hover,
 .top-bar.navbar-light .header-language.dropdown-style-01 .btn:hover {
-    color: #abadb7;
+    color: #abadb7 !important;
     cursor: pointer;
 }
 
@@ -23826,6 +23826,7 @@ only screen and (min-resolution: 1.5dppx) {
     padding-left: 20px;
     position: absolute;
     bottom: 20px;
+    left: 0px;
 }
 
 .right-panel {
