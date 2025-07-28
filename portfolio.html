@@ -16,6 +16,9 @@
     <link rel="stylesheet" type="text/css" href="css/theme-vendors.min.css">
     <link rel="stylesheet" type="text/css" href="css/style.css" />
     <link rel="stylesheet" type="text/css" href="css/responsive.css" />
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/magnific-popup.min.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/magnific-popup.js/1.1.0/jquery.magnific-popup.min.js"></script>
 </head>
 
 <body data-mobile-nav-style="classic">
@@ -79,18 +82,18 @@
     </header>
     <!-- end header -->
     <!-- start page title -->
-    <section class="bg-light-gray padding-40px-tb sm-padding-30px-tb page-title-small">
+    <section class="padding-40px-tb sm-padding-30px-tb page-title-small" style="background-color: #192c57;">
         <div class="container">
             <div class="row align-items-center justify-content-center">
                 <div class="col-xl-8 col-lg-6 text-center text-lg-start">
-                    <h1 class="alt-font text-extra-dark-gray font-weight-500 no-margin-bottom d-inline-block">Our
+                    <h1 class="alt-font text-white font-weight-600 no-margin-bottom d-inline-block">Our
                         Portfolio</h1>
 
                 </div>
                 <div
-                    class="col-xl-4 col-lg-6 text-center text-lg-end breadcrumb justify-content-center justify-content-lg-end text-small alt-font md-margin-15px-top">
+                    class="col-xl-4 col-lg-6 text-center text-lg-end breadcrumb justify-content-center justify-content-lg-end text-small alt-font md-margin-15px-top text-white font-weight-600">
                     <ul>
-                        <li><a href="index.html">Home</a></li>
+                        <li><a href="index.html" class="text-white">Home</a></li>
                         <li>Portfolio</li>
                     </ul>
                 </div>
@@ -98,25 +101,8 @@
         </div>
     </section>
     <!-- end page title -->
-    <!-- start section -->
     <section class="padding-four-lr bg-light-gray no-padding-top lg-padding-two-lr sm-no-padding-lr"
         style="min-height: 100vh;">
-        <div class="container">
-            <div class="row">
-                <div class="col-12 text-center">
-                    <!-- start filter navigation -->
-                    <ul
-                        class="portfolio-filter grid-filter nav nav-tabs justify-content-center border-0 text-uppercase font-weight-500 alt-font padding-6-rem-bottom md-padding-4-half-rem-bottom sm-padding-2-rem-bottom">
-                        <li class="nav active" style="cursor: pointer;"><a data-filter="*">All</a></li>
-                        <li class="nav" style="cursor: pointer;"><a data-filter=".event-planning">Events Planning and Management</a></li>
-                        <li class="nav" style="cursor: pointer;"><a data-filter=".event-brand-communication">Event and Brand Communications</a>
-                        </li>
-                        <li class="nav" style="cursor: pointer;"><a data-filter=".consultancy-service">Consultancy Services</a></li>
-                    </ul>
-                    <!-- end filter navigation -->
-                </div>
-            </div>
-        </div>
         <div class="container-fluid">
             <div class="row">
                 <div class="col-12 filter-content">
@@ -126,208 +112,195 @@
                         <li class="grid-item wow animate__fadeIn">
                             <div class="portfolio-box border-radius-6px box-shadow-large">
                                 <div class="portfolio-image bg-gradient-fast-blue-purple">
-                                    <img src="images/projects/project-12.jpg" alt="" />
+                                    <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0"
+                                        allowfullscreen></iframe>
                                     <div class="portfolio-hover align-items-center justify-content-center d-flex h-100">
                                         <div class="portfolio-icon">
-                                            <a href="images/projects/project-12.jpg" data-group="portfolio-items"
-                                                class="lightbox-group-gallery-item text-slate-blue text-slate-blue-hover rounded-circle bg-white">
-                                                <i class="fa-solid fa-search icon-very-small" aria-hidden="true"></i>
+                                            <a href="https://www.youtube.com/watch?v=VIDEO_ID_4?autoplay=1"
+                                                class="mfp-iframe text-slate-blue text-slate-blue-hover rounded-circle bg-white">
+                                                <i class="fa-solid fa-play icon-very-small" aria-hidden="true"></i>
                                             </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </li>
-                        <!-- end portfolio item -->
-                        <!-- start portfolio item -->
-                        <li class="grid-item consultancy-service wow animate__fadeIn" data-wow-delay="0.2s">
-                            <div class="portfolio-box border-radius-6px box-shadow-large">
-                                <div class="portfolio-image bg-gradient-fast-blue-purple">
-                                    <img src="images/projects/project-02.jpg" alt="" />
-                                    <div class="portfolio-hover align-items-center justify-content-center d-flex h-100">
-                                        <div class="portfolio-icon">
-                                            <a href="images/projects/project-02.jpg" data-group="portfolio-items"
-                                                class="lightbox-group-gallery-item text-slate-blue text-slate-blue-hover rounded-circle bg-white"><i
-                                                    class="fa-solid fa-search icon-very-small"
-                                                    aria-hidden="true"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <!-- end portfolio item -->
-                        <!-- start portfolio item -->
-                        <li class="grid-item event-planning consultancy-service wow animate__fadeIn"
-                            data-wow-delay="0.4s">
-                            <div class="portfolio-box border-radius-6px box-shadow-large">
-                                <div class="portfolio-image bg-gradient-fast-blue-purple">
-                                    <img src="images/projects/project-03.jpg" alt="" />
-                                    <div class="portfolio-hover align-items-center justify-content-center d-flex h-100">
-                                        <div class="portfolio-icon">
-                                            <a href="images/projects/project-03.jpg" data-group="portfolio-items"
-                                                class="lightbox-group-gallery-item text-slate-blue text-slate-blue-hover rounded-circle bg-white"><i
-                                                    class="fa-solid fa-search icon-very-small"
-                                                    aria-hidden="true"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <!-- end portfolio item -->
-                        <!-- start portfolio item -->
-                        <li class="grid-item event-planning wow animate__fadeIn" data-wow-delay="0.6s">
-                            <div class="portfolio-box border-radius-6px box-shadow-large">
-                                <div class="portfolio-image bg-gradient-fast-blue-purple">
-                                    <img src="images/projects/project-04.jpg" alt="" />
-                                    <div class="portfolio-hover align-items-center justify-content-center d-flex h-100">
-                                        <div class="portfolio-icon">
-                                            <a href="images/projects/project-04.jpg" data-group="portfolio-items"
-                                                class="lightbox-group-gallery-item text-slate-blue text-slate-blue-hover rounded-circle bg-white"><i
-                                                    class="fa-solid fa-search icon-very-small"
-                                                    aria-hidden="true"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <!-- end portfolio item -->
-                        <!-- start portfolio item -->
-                        <li class="grid-item event-planning wow animate__fadeIn">
-                            <div class="portfolio-box border-radius-6px box-shadow-large">
-                                <div class="portfolio-image bg-gradient-fast-blue-purple">
-                                    <img src="images/projects/project-05.jpg" alt="" />
-                                    <div class="portfolio-hover align-items-center justify-content-center d-flex h-100">
-                                        <div class="portfolio-icon">
-                                            <a href="images/projects/project-05.jpg" data-group="portfolio-items"
-                                                class="lightbox-group-gallery-item text-slate-blue text-slate-blue-hover rounded-circle bg-white"><i
-                                                    class="fa-solid fa-search icon-very-small"
-                                                    aria-hidden="true"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <!-- end portfolio item -->
-                        <!-- start portfolio item -->
-                        <li class="grid-item consultancy-service wow animate__fadeIn" data-wow-delay="0.2s">
-                            <div class="portfolio-box border-radius-6px box-shadow-large">
-                                <div class="portfolio-image bg-gradient-fast-blue-purple">
-                                    <img src="images/projects/project-06.jpg" alt="" />
-                                    <div class="portfolio-hover align-items-center justify-content-center d-flex h-100">
-                                        <div class="portfolio-icon">
-                                            <a href="images/projects/project-06.jpg" data-group="portfolio-items"
-                                                class="lightbox-group-gallery-item text-slate-blue text-slate-blue-hover rounded-circle bg-white"><i
-                                                    class="fa-solid fa-search icon-very-small"
-                                                    aria-hidden="true"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <!-- end portfolio item -->
-                        <!-- start portfolio item -->
-                        <li class="grid-item event-brand-communication wow animate__fadeIn" data-wow-delay="0.4s">
-                            <div class="portfolio-box border-radius-6px box-shadow-large">
-                                <div class="portfolio-image bg-gradient-fast-blue-purple">
-                                    <img src="images/projects/project-07.jpg" alt="" />
-                                    <div class="portfolio-hover align-items-center justify-content-center d-flex h-100">
-                                        <div class="portfolio-icon">
-                                            <a href="images/projects/project-07.jpg" data-group="portfolio-items"
-                                                class="lightbox-group-gallery-item text-slate-blue text-slate-blue-hover rounded-circle bg-white"><i
-                                                    class="fa-solid fa-search icon-very-small"
-                                                    aria-hidden="true"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <!-- end portfolio item -->
-                        <!-- start portfolio item -->
-                        <li class="grid-item wow consultancy-service animate__fadeIn" data-wow-delay="0.6s">
-                            <div class="portfolio-box border-radius-6px box-shadow-large">
-                                <div class="portfolio-image bg-gradient-fast-blue-purple">
-                                    <img src="images/projects/project-08.jpg" alt="" />
-                                    <div class="portfolio-hover align-items-center justify-content-center d-flex h-100">
-                                        <div class="portfolio-icon">
-                                            <a href="images/projects/project-08.jpg" data-group="portfolio-items"
-                                                class="lightbox-group-gallery-item text-slate-blue text-slate-blue-hover rounded-circle bg-white"><i
-                                                    class="fa-solid fa-search icon-very-small"
-                                                    aria-hidden="true"></i></a>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </li>
-                        <!-- end portfolio item -->
-                        <!-- start portfolio item -->
                         <li class="grid-item wow animate__fadeIn">
                             <div class="portfolio-box border-radius-6px box-shadow-large">
                                 <div class="portfolio-image bg-gradient-fast-blue-purple">
-                                    <img src="images/projects/projects-09.jpg" alt="" />
+                                    <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0"
+                                        allowfullscreen></iframe>
                                     <div class="portfolio-hover align-items-center justify-content-center d-flex h-100">
                                         <div class="portfolio-icon">
-                                            <a href="images/projects/projects-09.jpg" data-group="portfolio-items"
-                                                class="lightbox-group-gallery-item text-slate-blue text-slate-blue-hover rounded-circle bg-white"><i
-                                                    class="fa-solid fa-search icon-very-small"
-                                                    aria-hidden="true"></i></a>
+                                            <a href="https://www.youtube.com/watch?v=VIDEO_ID_4?autoplay=1"
+                                                class="mfp-iframe text-slate-blue text-slate-blue-hover rounded-circle bg-white">
+                                                <i class="fa-solid fa-play icon-very-small" aria-hidden="true"></i>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </li>
-                        <!-- end portfolio item -->
-                        <!-- start portfolio item -->
-                        <li class="grid-item event-planning event-brand-communication wow animate__fadeIn"
-                            data-wow-delay="0.2s">
+                        <li class="grid-item wow animate__fadeIn">
                             <div class="portfolio-box border-radius-6px box-shadow-large">
                                 <div class="portfolio-image bg-gradient-fast-blue-purple">
-                                    <img src="images/projects/projects-10.jpg" alt="" />
+                                    <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0"
+                                        allowfullscreen></iframe>
                                     <div class="portfolio-hover align-items-center justify-content-center d-flex h-100">
                                         <div class="portfolio-icon">
-                                            <a href="images/projects/projects-10.jpg" data-group="portfolio-items"
-                                                class="lightbox-group-gallery-item text-slate-blue text-slate-blue-hover rounded-circle bg-white"><i
-                                                    class="fa-solid fa-search icon-very-small"
-                                                    aria-hidden="true"></i></a>
+                                            <a href="https://www.youtube.com/watch?v=VIDEO_ID_4?autoplay=1"
+                                                class="mfp-iframe text-slate-blue text-slate-blue-hover rounded-circle bg-white">
+                                                <i class="fa-solid fa-play icon-very-small" aria-hidden="true"></i>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </li>
-                        <!-- end portfolio item -->
-                        <!-- start portfolio item -->
-                        <li class="grid-item event-brand-communication wow animate__fadeIn" data-wow-delay="0.4s">
+                        <li class="grid-item wow animate__fadeIn">
                             <div class="portfolio-box border-radius-6px box-shadow-large">
                                 <div class="portfolio-image bg-gradient-fast-blue-purple">
-                                    <img src="images/projects/project-11.jpg" alt="" />
+                                    <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0"
+                                        allowfullscreen></iframe>
                                     <div class="portfolio-hover align-items-center justify-content-center d-flex h-100">
                                         <div class="portfolio-icon">
-                                            <a href="images/projects/project-11.jpg" data-group="portfolio-items"
-                                                class="lightbox-group-gallery-item text-slate-blue text-slate-blue-hover rounded-circle bg-white"><i
-                                                    class="fa-solid fa-search icon-very-small"
-                                                    aria-hidden="true"></i></a>
+                                            <a href="https://www.youtube.com/watch?v=VIDEO_ID_4?autoplay=1"
+                                                class="mfp-iframe text-slate-blue text-slate-blue-hover rounded-circle bg-white">
+                                                <i class="fa-solid fa-play icon-very-small" aria-hidden="true"></i>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </li>
-                        <!-- end portfolio item -->
-                        <!-- start portfolio item -->
-                        <li class="grid-item event-brand-communication wow animate__fadeIn" data-wow-delay="0.6s">
+                        <li class="grid-item wow animate__fadeIn">
                             <div class="portfolio-box border-radius-6px box-shadow-large">
                                 <div class="portfolio-image bg-gradient-fast-blue-purple">
-                                    <img src="images/projects/project-12.jpg" alt="" />
+                                    <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0"
+                                        allowfullscreen></iframe>
                                     <div class="portfolio-hover align-items-center justify-content-center d-flex h-100">
                                         <div class="portfolio-icon">
-                                            <a href="images/projects/project-12.jpg" data-group="portfolio-items"
-                                                class="lightbox-group-gallery-item text-slate-blue text-slate-blue-hover rounded-circle bg-white"><i
-                                                    class="fa-solid fa-search icon-very-small"
-                                                    aria-hidden="true"></i></a>
+                                            <a href="https://www.youtube.com/watch?v=VIDEO_ID_4?autoplay=1"
+                                                class="mfp-iframe text-slate-blue text-slate-blue-hover rounded-circle bg-white">
+                                                <i class="fa-solid fa-play icon-very-small" aria-hidden="true"></i>
+                                            </a>
                                         </div>
                                     </div>
                                 </div>
                             </div>
                         </li>
-                        <!-- end portfolio item -->
+                        <li class="grid-item wow animate__fadeIn">
+                            <div class="portfolio-box border-radius-6px box-shadow-large">
+                                <div class="portfolio-image bg-gradient-fast-blue-purple">
+                                    <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0"
+                                        allowfullscreen></iframe>
+                                    <div class="portfolio-hover align-items-center justify-content-center d-flex h-100">
+                                        <div class="portfolio-icon">
+                                            <a href="https://www.youtube.com/watch?v=VIDEO_ID_4?autoplay=1"
+                                                class="mfp-iframe text-slate-blue text-slate-blue-hover rounded-circle bg-white">
+                                                <i class="fa-solid fa-play icon-very-small" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="grid-item wow animate__fadeIn">
+                            <div class="portfolio-box border-radius-6px box-shadow-large">
+                                <div class="portfolio-image bg-gradient-fast-blue-purple">
+                                    <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0"
+                                        allowfullscreen></iframe>
+                                    <div class="portfolio-hover align-items-center justify-content-center d-flex h-100">
+                                        <div class="portfolio-icon">
+                                            <a href="https://www.youtube.com/watch?v=VIDEO_ID_4?autoplay=1"
+                                                class="mfp-iframe text-slate-blue text-slate-blue-hover rounded-circle bg-white">
+                                                <i class="fa-solid fa-play icon-very-small" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="grid-item wow animate__fadeIn">
+                            <div class="portfolio-box border-radius-6px box-shadow-large">
+                                <div class="portfolio-image bg-gradient-fast-blue-purple">
+                                    <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0"
+                                        allowfullscreen></iframe>
+                                    <div class="portfolio-hover align-items-center justify-content-center d-flex h-100">
+                                        <div class="portfolio-icon">
+                                            <a href="https://www.youtube.com/watch?v=VIDEO_ID_4?autoplay=1"
+                                                class="mfp-iframe text-slate-blue text-slate-blue-hover rounded-circle bg-white">
+                                                <i class="fa-solid fa-play icon-very-small" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="grid-item wow animate__fadeIn">
+                            <div class="portfolio-box border-radius-6px box-shadow-large">
+                                <div class="portfolio-image bg-gradient-fast-blue-purple">
+                                    <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0"
+                                        allowfullscreen></iframe>
+                                    <div class="portfolio-hover align-items-center justify-content-center d-flex h-100">
+                                        <div class="portfolio-icon">
+                                            <a href="https://www.youtube.com/watch?v=VIDEO_ID_4?autoplay=1"
+                                                class="mfp-iframe text-slate-blue text-slate-blue-hover rounded-circle bg-white">
+                                                <i class="fa-solid fa-play icon-very-small" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="grid-item wow animate__fadeIn">
+                            <div class="portfolio-box border-radius-6px box-shadow-large">
+                                <div class="portfolio-image bg-gradient-fast-blue-purple">
+                                    <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0"
+                                        allowfullscreen></iframe>
+                                    <div class="portfolio-hover align-items-center justify-content-center d-flex h-100">
+                                        <div class="portfolio-icon">
+                                            <a href="https://www.youtube.com/watch?v=VIDEO_ID_4?autoplay=1"
+                                                class="mfp-iframe text-slate-blue text-slate-blue-hover rounded-circle bg-white">
+                                                <i class="fa-solid fa-play icon-very-small" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="grid-item wow animate__fadeIn">
+                            <div class="portfolio-box border-radius-6px box-shadow-large">
+                                <div class="portfolio-image bg-gradient-fast-blue-purple">
+                                    <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0"
+                                        allowfullscreen></iframe>
+                                    <div class="portfolio-hover align-items-center justify-content-center d-flex h-100">
+                                        <div class="portfolio-icon">
+                                            <a href="https://www.youtube.com/watch?v=VIDEO_ID_4?autoplay=1"
+                                                class="mfp-iframe text-slate-blue text-slate-blue-hover rounded-circle bg-white">
+                                                <i class="fa-solid fa-play icon-very-small" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
+                        <li class="grid-item wow animate__fadeIn">
+                            <div class="portfolio-box border-radius-6px box-shadow-large">
+                                <div class="portfolio-image bg-gradient-fast-blue-purple">
+                                    <iframe src="https://www.youtube.com/embed/VIDEO_ID_1" frameborder="0"
+                                        allowfullscreen></iframe>
+                                    <div class="portfolio-hover align-items-center justify-content-center d-flex h-100">
+                                        <div class="portfolio-icon">
+                                            <a href="https://www.youtube.com/watch?v=VIDEO_ID_4?autoplay=1"
+                                                class="mfp-iframe text-slate-blue text-slate-blue-hover rounded-circle bg-white">
+                                                <i class="fa-solid fa-play icon-very-small" aria-hidden="true"></i>
+                                            </a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </li>
                     </ul>
                 </div>
             </div>
@@ -384,9 +357,16 @@
                                 policy</a>.</label>
                     </div>
                     <div class="col text-center text-md-end">
-                        <button id="project-contact-us-button"
-                            class="btn btn-medium btn-gradient-light-purple-light-orange mb-0 submit" type="submit">Send
-                            Message</button>
+                        <a href="contact.html" class="hover-button">
+                            <div class="button-content"
+                                style="display: flex; gap: 0; flex-wrap: nowrap; align-items: center; margin-top: 30px;">
+                                <span
+                                    style="padding: 10px; background-color: #1c75bc; color: white; font-weight: 300; font-size: 16px;">Submit</span>
+                                <span
+                                    style="padding: 10px; background-color: #db1f26; color: white; font-weight: 300; font-size: 16px;"><i
+                                        class="fas fa-arrow-right" style="transform: rotate(315deg);"></i></span>
+                            </div>
+                        </a>
                     </div>
                 </div>
                 <div class="form-results d-none"></div>
@@ -394,7 +374,7 @@
             <!-- end contact form -->
         </div>
     </div>
-     <footer class="site-footer">
+    <footer class="site-footer">
         <div class="container footer-grid">
             <div class="footer-brand">
                 <img src="images/use/logo-white.png" alt="Reg&Gil Logo" class="footer-logo">
@@ -402,10 +382,10 @@
                 <p>Lagos | Abuja | Port harcourt | Ghana</p>
                 <p>+2348085333368 | contact@regandgil.com</p>
                 <div class="social-icons">
-                    <a href="#"><i class="fab fa-instagram"></i></a>
-                    <a href="#"><i class="fab fab fab fa-linkedin"></i></a>
-                    <a href="#"><i class="fab fa-x"></i></a>
-                    <a href="#"><i class="fab fab fa-youtube"></i></a>
+                    <a href=" https://www.instagram.com/regandgil?igsh=Mml0amZzbTV4MjQ0" target="_blank"><i class="fab fa-instagram"></i></a>
+                    <a href="https://www.linkedin.com/company/reg-gil-ltd/" target="_blank"><i class="fab fab fab fa-linkedin"></i></a>
+                    <a href="#" target="_blank"><i class="fab fa-x"></i></a>
+                    <a href="#" target="_blank"><i class="fab fab fa-youtube"></i></a>
                 </div>
             </div>
             <div class="footer-links">
@@ -444,6 +424,40 @@
     <script type="text/javascript" src="js/jquery.min.js"></script>
     <script type="text/javascript" src="js/theme-vendors.min.js"></script>
     <script type="text/javascript" src="js/main.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('.mfp-iframe').magnificPopup({
+                type: 'iframe',
+                iframe: {
+                    patterns: {
+                        youtube: {
+                            index: 'youtube.com/',
+                            id: 'v=',
+                            src: '//www.youtube.com/embed/%id%?autoplay=1'
+                        }
+                    }
+                }
+            });
+
+            // If you want a gallery of videos (like your original data-group)
+            $('.portfolio-wrapper').magnificPopup({
+                delegate: '.mfp-iframe', // Child selector that should activate popup
+                type: 'iframe',
+                gallery: {
+                    enabled: true
+                },
+                iframe: {
+                    patterns: {
+                        youtube: {
+                            index: 'youtube.com/',
+                            id: 'v=',
+                            src: '//www.youtube.com/embed/%id%?autoplay=1'
+                        }
+                    }
+                }
+            });
+        });
+    </script>
 </body>
 
 </html>

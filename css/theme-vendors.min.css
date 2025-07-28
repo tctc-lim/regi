@@ -862,8 +862,6 @@ progress {
     flex-shrink: 0;
     width: 100%;
     max-width: 100%;
-    padding-right: calc(var(--bs-gutter-x) * .5);
-    padding-left: calc(var(--bs-gutter-x) * .5);
     margin-top: var(--bs-gutter-y)
 }
 
@@ -963,7 +961,7 @@ progress {
 
 .col-11 {
     flex: 0 0 auto;
-    width: 91.66666667%
+    width: 100%
 }
 
 .col-12 {
