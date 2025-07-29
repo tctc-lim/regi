@@ -10893,7 +10893,7 @@
     .sticky .navbar.navbar-dark .navbar-nav .nav-link,
     .sticky .navbar.navbar-light .navbar-nav .nav-link,
     header.sticky .navbar.top-logo .navbar-nav .nav-link {
-        color: white !important;
+        color: white;
         padding: 9px 15px;
         margin: 0;
     }
