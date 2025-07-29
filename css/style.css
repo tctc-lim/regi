@@ -23220,8 +23220,12 @@ only screen and (min-resolution: 1.5dppx) {
 
 .footer-grid {
     display: grid;
-    grid-template-columns: 2fr 1fr 1fr 2fr;
+    grid-template-columns: 2fr 2fr 2fr;
     gap: 40px;
+}
+
+.footer-links h4 {
+    margin: 0px;
 }
 
 .footer-brand .footer-logo {
