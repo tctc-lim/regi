@@ -12131,7 +12131,7 @@ header.sticky .navbar.header-dark .navbar-toggler-line {
 .sticky .navbar.header-light .header-cart-icon>a,
 .sticky .navbar.header-light .header-language>a,
 .sticky .navbar.header-light .nav-bar-contact {
-    color: #232323 !important;
+    color: white;
 }
 
 .sticky .navbar.header-light .header-push-button .push-button>span {
@@ -23340,8 +23340,8 @@ only screen and (min-resolution: 1.5dppx) {
     color: #1c75bc;
     margin-bottom: 40px;
     font-weight: 600;
-    paddinG-top: 24px;
-    padding-bottom: 24px;
+    padding-top: 35px;
+    padding-bottom: 35px;
     text-align: left;
 }
 
@@ -23431,8 +23431,8 @@ only screen and (min-resolution: 1.5dppx) {
 .our-works-section h3 {
     font-size: 32px;
     color: #1c75bc;
-    padding-top: 68px;
-    padding-bottom: 68px;
+    padding-top: 35px;
+    padding-bottom: 35px;
     font-weight: 600;
     text-align: left;
 }
