@@ -23243,7 +23243,8 @@ only screen and (min-resolution: 1.5dppx) {
 }
 
 .social-icons {
-    margin-top: 40px;
+    margin-top: 15px;
+    margin-bottom: 20px;
 }
 
 .social-icons a {
