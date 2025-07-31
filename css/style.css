@@ -37,6 +37,7 @@ body {
 body,
 html {
     -moz-osx-font-smoothing: grayscale;
+    scroll-behavior: smooth;
 }
 
 a {
@@ -12131,7 +12132,7 @@ header.sticky .navbar.header-dark .navbar-toggler-line {
 .sticky .navbar.header-light .header-cart-icon>a,
 .sticky .navbar.header-light .header-language>a,
 .sticky .navbar.header-light .nav-bar-contact {
-    color: white;
+    color: #232323;
 }
 
 .sticky .navbar.header-light .header-push-button .push-button>span {
@@ -12239,7 +12240,7 @@ header.sticky .navbar.header-dark .navbar-toggler-line {
 .navbar.navbar-light .navbar-nav .nav-link.active,
 .navbar-light .navbar-nav .nav-link:hover,
 .navbar-light .navbar-nav .nav-link:focus {
-    color: #abadb7;
+    color: #abadb7 !important;
     cursor: pointer;
 }
 
@@ -23236,7 +23237,7 @@ only screen and (min-resolution: 1.5dppx) {
     filter: brightness(0) invert(1);
 }
 
-.footer-brand p {
+.footer-brand p, .footer-address p {
     font-size: 0.9em;
     margin-bottom: 5px;
     color: #e0e0e0;
@@ -23258,9 +23259,10 @@ only screen and (min-resolution: 1.5dppx) {
 }
 
 .footer-links h4,
-.footer-newsletter h4 {
+.footer-newsletter h4,
+.footer-address h4 {
     color: #ffffff;
-    font-size: 1.1em;
+    font-size: 1.3em;
     margin-bottom: 20px;
     font-weight: 600;
 }
